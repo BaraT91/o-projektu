@@ -2,14 +2,6 @@ body {
   background-color: #934324;
 }
 
-.menu {
-  background-color: #F3E3C4;
-  display: flex;
-  justify-content: space-around;
-  border-radius: 10px;
-
-}
-
 h1 {
   font-family: "Original Surfer", sans-serif;
   font-weight: 400;
@@ -24,7 +16,7 @@ p {
   font-size: 3em;
 }
 
-button {
+a {
   font-family: "Forum", serif;
   font-weight: 400;
   font-style: normal;
