@@ -1,14 +1,37 @@
-/* Používáme intuitivní výpočet rozměrů prvků. */
-*, *:before, *:after {
-  box-sizing: border-box;
+body {
+  background-color: #934324;
 }
 
-html {
-  font-family: sans-serif;
+.menu {
+  background-color: #F3E3C4;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+
 }
 
-.container {
-  max-width: 20rem;
-  margin-right: auto;
-  margin-left: auto;
+h1 {
+  font-family: "Original Surfer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6em;
+}
+
+p {
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
+}
+
+button {
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+  border: none;
+}
+
+.tlacitka {
+  background-color: #3C2B14;
 }
