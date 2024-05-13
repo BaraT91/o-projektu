@@ -1,5 +1,8 @@
 body {
   background-color: #934324;
+  margin-left: 40px;
+  margin-right: 40px;
+  min-width:  300px;
 }
 
 h1 {
@@ -20,6 +23,7 @@ h1 {
   height: auto;
   margin: auto;
   padding-bottom: 30px;
+  border-radius: 10px;
 }
 
 .main_content {
@@ -32,7 +36,6 @@ p {
   font-weight: 400;
   font-style: normal;
   font-size: 3em;
-  /* Přizpůsobení pro menší zařízení níže */
 }
 
 a {
@@ -40,7 +43,6 @@ a {
   font-weight: 400;
   font-style: normal;
   font-size: 2em;
-  /* Přizpůsobení pro menší zařízení níže */
   border: none;
 }
 
@@ -67,10 +69,6 @@ a {
   text-decoration: none;
 }
 
-.onas {}
-
-.ohre {}
-
 .obrazek_volby {
   height: 200px;
   width: 200px;
@@ -79,33 +77,25 @@ a {
   left: 0;
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
   h1 {
     font-size: 3em;
-    /* Menší velikost pro tablety a mobily */
   }
 
   p,
   a {
     font-size: 1.5em;
-    /* Menší velikost textu pro lepší čitelnost na malých zařízeních */
   }
 
   .tlacitka {
     flex-direction: column;
-    /* Tlačítka pod sebou */
     align-items: center;
-    /* Zarovnání tlačítek na střed */
+
   }
 
   .onas,
   .ohre {
     width: 100%;
-    /* Šířka tlačítka odpovídající šířce zařízení */
     margin-bottom: 10px;
-    /* Přidání marginu pro lepší vizuální oddělení
-  } */
-    margin-right: 10px;
   }
 }
