@@ -7,19 +7,21 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 6em;
+  /* Přizpůsobení pro menší zařízení níže */
   text-align: center;
 }
 
 .background {
   background-color: #F3E3C4;
   background-size: contain;
-  width: 1450px;
-  height: 400px;
+  max-width: 100%;
+  height: auto;
   margin: auto;
 }
 
 .main_content {
   text-align: center;
+  margin: 20px;
 }
 
 p {
@@ -27,6 +29,7 @@ p {
   font-weight: 400;
   font-style: normal;
   font-size: 3em;
+  /* Přizpůsobení pro menší zařízení níže */
 }
 
 a {
@@ -34,15 +37,19 @@ a {
   font-weight: 400;
   font-style: normal;
   font-size: 2em;
+  /* Přizpůsobení pro menší zařízení níže */
   border: none;
 }
 
 .tlacitka {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  /* Přidání pro lepší flexibilitu na menších zařízeních */
   border-radius: 10px;
   color: azure;
   margin-top: 100px;
+  align-items: center;
 }
 
 .onas,
@@ -63,4 +70,35 @@ a {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3em;
+    /* Menší velikost pro tablety a mobily */
+  }
+
+  p,
+  a {
+    font-size: 1.5em;
+    /* Menší velikost textu pro lepší čitelnost na malých zařízeních */
+  }
+
+  .tlacitka {
+    flex-direction: column;
+    /* Tlačítka pod sebou */
+    align-items: center;
+    /* Zarovnání tlačítek na střed */
+  }
+
+  .onas,
+  .ohre {
+    width: 100%;
+    /* Šířka tlačítka odpovídající šířce zařízení */
+    margin-bottom: 10px;
+    /* Přidání marginu pro lepší vizuální oddělení
+  } */
+    margin-right: 10px;
+  }
 }
