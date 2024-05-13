@@ -7,10 +7,19 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 6em;
+  text-align: center;
+}
+
+.background {
+  background-color: #F3E3C4;
+  background-size: contain;
+  width: 1450px;
+  height: 300px;
+  margin: auto;
 }
 
 .main_content {
-  background-color: #F3E3C4;
+  text-align: center;
 }
 
 p {
@@ -36,6 +45,8 @@ a {
   border-radius: 45px;
   text-align: center;
   padding-top: 15px;
+  color: azure;
+  text-decoration: none;
 }
 
 .tlacitka {
