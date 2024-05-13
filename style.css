@@ -9,6 +9,10 @@ h1 {
   font-size: 6em;
 }
 
+.main_content {
+  background-color: #F3E3C4;
+}
+
 p {
   font-family: "Forum", serif;
   font-weight: 400;
@@ -24,6 +28,19 @@ a {
   border: none;
 }
 
-.tlacitka {
+.onas,
+.ohre {
   background-color: #3C2B14;
+  width: 180px;
+  height: 55px;
+  border-radius: 45px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.tlacitka {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  color: azure;
 }
