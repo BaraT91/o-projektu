@@ -7,8 +7,10 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 6em;
-  /* Přizpůsobení pro menší zařízení níže */
   text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
 }
 
 .background {
@@ -17,11 +19,12 @@ h1 {
   max-width: 100%;
   height: auto;
   margin: auto;
+  padding-bottom: 30px;
 }
 
 .main_content {
   text-align: center;
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -43,9 +46,9 @@ a {
 
 .tlacitka {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
-  /* Přidání pro lepší flexibilitu na menších zařízeních */
+  column-gap: 30px;
   border-radius: 10px;
   color: azure;
   margin-top: 100px;
@@ -63,6 +66,10 @@ a {
   color: azure;
   text-decoration: none;
 }
+
+.onas {}
+
+.ohre {}
 
 .obrazek_volby {
   height: 200px;
