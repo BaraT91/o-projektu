@@ -20,7 +20,7 @@ h1 {
 .background {
   background-color: #F3E3C4;
   background-size: contain;
-  max-width: 100x;
+  max-width: 100%;
   height: auto;
   margin: auto;
   border-radius: 10px;
@@ -53,6 +53,10 @@ a {
 }
 
 @media (max-width: 768px) {
+  body {
+    min-width: 450px;
+  }
+
   h1 {
     font-size: 3em;
   }
@@ -60,5 +64,14 @@ a {
   p,
   a {
     font-size: 1.5em;
+  }
+
+  .background {
+    width: 100%;
+    min-width: 500px;
+  }
+
+  .obrazek_lezouci {
+    position: relative;
   }
 }
