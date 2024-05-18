@@ -41,7 +41,7 @@ a {
   font-family: "Forum", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.7em;
+  font-size: 2em;
   border: none;
 }
 
@@ -61,8 +61,7 @@ a {
     font-size: 3em;
   }
 
-  p,
-  a {
+  p {
     font-size: 1.5em;
   }
 
