@@ -1,0 +1,89 @@
+body {
+  /* background-color: #934324; */
+  /* margin-left: 40px;
+  margin-right: 60px;
+  max-width: 100%; */
+}
+
+h1 {
+  /* font-family: "Original Surfer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
+  padding-bottom: 15px; */
+}
+
+.text {
+  background-color: #F3E3C4;
+  /* background-size: contain; */
+  max-width: 100%;
+  /* height: auto; */
+  /* margin: auto; */
+  /* border-radius: 10px; */
+  display: flex;
+  padding-bottom: 0px;
+}
+
+.main-content {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+p {
+  /* font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7em;
+  padding: 40px; */
+}
+
+a {
+  /* font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+  border: none; */
+}
+
+
+.img_onTheTree {
+  height: 100%;
+  width: 200px;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  /* body {
+    min-width: 450px;
+  } */
+
+
+
+  h1 {
+    font-size: 3em;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+  .main {
+    height: 100vh;
+  }
+
+  /* .background {
+    width: 100%;
+    /* min-width: 500px;} */
+
+  .img_onTheTree {
+    display: none;
+  }
+}

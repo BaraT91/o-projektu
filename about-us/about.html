@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="about.css" />
     <link rel="stylesheet" href="../menu.css" />
-    <link rel="stylesheet" href="hra.css" />
+    <script type="module" src="about.js"></script>
     <script type="module" src="../script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,24 +14,25 @@
       href="https://fonts.googleapis.com/css2?family=Forum&family=Original+Surfer&display=swap"
       rel="stylesheet"
     />
-
     <title>Nerozhodná veverka</title>
   </head>
-  <body>
+</html>
+<body>
+  <div class="main">
     <div class="header">
       <a href="../index.html"> <div class="logo"></div> </a>
       <div class="menu">
         <div class="menu_item">
           <div class="nut"></div>
-          <a class="menu_uvod" href="../index.html">Domů</a>
+          <a class="menu_HomePage" href="../index.html">Domů</a>
         </div>
         <div class="menu_item">
           <div class="nut"></div>
-          <a class="menu_ohre" href="./hra.html">O hře</a>
+          <a class="menu_aboutGame" href="../about-game/game.html">O hře</a>
         </div>
         <div class="menu_item">
           <div class="nut"></div>
-          <a class="menu_onas" href="../o-nas/my.html">O nás</a>
+          <a class="menu_aboutUs" href="./about.html">O nás</a>
         </div>
       </div>
       <div class="hamburger-menu">
@@ -40,27 +42,25 @@
         <div class="line"></div>
       </div>
     </div>
-    <div class="uvod">
+    <div class="nadpis">
       <h1>Nerozhodná veverka</h1>
     </div>
-    <div class="background bubble">
+    <div class="text">
       <div class="main_content">
-        <img class="bubbleArrow" src="../img/Arrow.png" alt="Bubble arrow" />
-        <h3>O hře</h3>
-        <p class="bubble">
-          Pravidla hry jsou jednoduchá. Mám pro tebe pár jednoduchých otázek, na
-          základě kterých ti vyberu, na co bys dneska mohl mít chuť. Neboj se
-          toho. Vyber jednu z nabízených odpovědí, která je ti nejbližší. A abys
-          věděl, že se blížíš ke svému vysněnému receptu, propůjčím ti pár svých
-          zásob, které uvidíš po levém kraji. Přeji ti příjemnou zábavu a dobrou
-          chuť.
+        <p>
+          Jsme dvě poblázněné super holky jménem Bára a Táňa. I přesto, že naše
+          cesty byly rozdílné, přivedly nás ke společné zálibě – programování.
+          Nyní spolu tvoříme úžasný projekt, do kterého jsme se zamilovaly.
+          Přesvědčte se, jak je skvělý.
         </p>
-        <!-- <div class="tlacitka">
-          <a class="onas" href="./O nás/my.html">Kdo jste?</a>
-          <a class="ohre" href="./O hře/hra.html">O co jde?</a>
-        </div> -->
-        <img src="../img/Volba.png" alt="Volba" class="obrazek_volby" />
+      </div>
+      <div class="photo">
+        <img
+          src="../img/SquirrelOnTree.png"
+          alt="Lezoucí veverka"
+          class="img_onTheTree"
+        />
       </div>
     </div>
-  </body>
-</html>
+  </div>
+</body>

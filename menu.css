@@ -5,7 +5,9 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  /* margin-top: 30px; */
 }
 
 .logo {
@@ -31,6 +33,8 @@
   align-self: right;
   margin: auto;
   margin-right: 0;
+  margin-top: 10px;
+
 }
 
 .menu_item {
@@ -66,9 +70,9 @@
 }
 
 
-.menu_uvod,
-.menu_ohre,
-.menu_onas {
+.menu_HomePage,
+.menu_aboutGame,
+.menu_aboutUs {
   position: relative;
   white-space: nowrap;
   max-height: 100%;
@@ -97,15 +101,15 @@
   }
 }
 
-.menu_item:hover .menu_uvod {
+.menu_item:hover .menu_HomePage {
   color: #934324;
 }
 
-.menu_item:hover .menu_ohre {
+.menu_item:hover .menu_aboutGame {
   color: #934324;
 }
 
-.menu_item:hover .menu_onas {
+.menu_item:hover .menu_aboutUs {
   color: #934324;
 }
 
