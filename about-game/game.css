@@ -44,11 +44,28 @@ h3 {
   font-size: 1.5em;
 }
 
+.obrazek_volby {
+  display: none
+}
+
+.obrazek_volby--bigscreen {
+  height: 200px;
+  width: 215px;
+  /* position: fixed; */
+  bottom: 0px;
+  left: 0;
+  position: absolute;
+}
+
 
 @media (max-width: 768px) {
   .bubbleArrow {
     display: none;
   }
+
+  /* .main {
+    height: 100%;
+  } */
 
   .bubble {
     border-radius: 10px;
@@ -57,5 +74,12 @@ h3 {
     margin-right: 20px;
   }
 
+  .obrazek_volby {
+    display: block;
+  }
+
+  .obrazek_volby--bigscreen {
+    display: none;
+  }
 
 }

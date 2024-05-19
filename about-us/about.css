@@ -51,6 +51,14 @@ a {
   border: none; */
 }
 
+h3 {
+  font-family: "Original Surfer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.5em;
+}
+
 
 .img_onTheTree {
   height: 100%;
@@ -65,8 +73,6 @@ a {
     min-width: 450px;
   } */
 
-
-
   h1 {
     font-size: 3em;
   }
@@ -75,15 +81,37 @@ a {
     font-size: 1.5em;
   }
 
-  .main {
+  /* .main {
     height: 100vh;
-  }
+  } */
 
   /* .background {
     width: 100%;
     /* min-width: 500px;} */
 
-  .img_onTheTree {
+  /* .img_onTheTree {
     display: none;
+  } */
+
+
+}
+
+@media (max-width: 892px) {
+  .text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img_onTheTree {
+    position: relative;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* border: 0.5px solid #3C2B14; */
+    -webkit-box-shadow: 0px 10px 50px 8px #3C2B14;
+    -moz-box-shadow: 0px 10px 50px 8px #3C2B14;
+    /* box-shadow: -1px 30px 50px 8px #3C2B14; */
+    box-shadow: 0px 10px 50px 8px #3C2B14;
   }
 }
